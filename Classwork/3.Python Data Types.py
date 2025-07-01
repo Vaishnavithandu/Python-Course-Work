@@ -26,9 +26,9 @@ print("vaishnavi and sahithi")   # vaishnavi and sahithi
 print(" 'vaishnavi' and 'sahithi' ")  #  'vaishnavi' and 'sahithi' 
 
 # list
-fav=[] # declaration of string can be done in two ways 1. [], 2. context list()
+fav=[] # declaration of string can be done in two ways 1. square brackets, 2. context list()
 fav=list()
-fav=[1, 2.3, 3+5j, "string",[] ]  # list can be of any type
+fav=[1, 2.3, 3+5j, "string",[] ]  # lists can contain heterogeneous data types or objects
 print(fav)   # [1, 2.3, (3+5j), 'string', []]  
 
 fav.append("hello")  # it is mutable
@@ -39,7 +39,7 @@ print(fav)  # [1, 2, 3, 4, 5]
 print(type(fav)) # <class 'list'>
 
 l=[1,2,3,4,4,4]
-print(l)  # [1, 2, 3, 4, 4, 4]  (same in order) 
+print(l)  # [1, 2, 3, 4, 4, 4]  (it is a ordered collection of elements) 
 
 # tuple
 t=() # tuple can be declared in two ways 1. by parentheses, 2. by context tuple()
@@ -58,7 +58,7 @@ print(t) # AttributeError: 'tuple' object has no attribute 'add'
 s={1,1,1,1,1,2,2,3}
 print(s)  # {1, 2, 3}  (doesn't allow duplicates)
 s={100,20,2,3,1,6,1,7,3,2,1786}
-print(s)  # {1, 2, 3, 100, 6, 7, 20, 1786} ( not in an order)
+print(s)  # {1, 2, 3, 100, 6, 7, 20, 1786} ( unordered collection of elements na it's mutable)
 
 # frozenset
 s=frozenset({1,2,3,4})
@@ -71,9 +71,9 @@ AttributeError: 'frozenset' object has no attribute 'add' '''
 
 # Dictionary
 d={'name': 'vaishnavi', 'course': 'DS', 'batch': '15', 'skills': ['py', 'sql', 'bowerbi']}
-print(d)  # {'name': 'vaishnavi', 'course': 'DS', 'batch': '15', 'skills': ['py', 'sql', 'bowerbi']}
-print(d['name'])  # vaishnavi
-print(d['course'])  # DS
+print(d)  # {'name': 'vaishnavi', 'course': 'DS', 'batch': '15', 'skills': ['py', 'sql', 'bowerbi']} 
+print(d['name'])  # vaishnavi    (dic stores data in key-value pairs,where each unique key maps to a specific value)
+print(d['course'])  # DS         (keys are immutable,only values are mutable ) 
 print(d['skills'])  # ['py', 'sql', 'bowerbi']
 
 # Boolean
