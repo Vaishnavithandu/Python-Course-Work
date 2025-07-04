@@ -90,7 +90,7 @@ randomvar='vaish'
 print(randomvar)  # vaish
 print(type(randomvar))  # <class 'str'>
 
-
+# String Testing methods
 
 
 

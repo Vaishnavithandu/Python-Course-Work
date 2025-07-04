@@ -146,3 +146,182 @@ names
 print(names.count('a'))  # 5
 print(names.count('i'))  # 3
 print(names.count('r'))  # 3
+
+
+
+# String Testing methods
+
+print(32>>1)
+16
+print(16>>1)
+8
+print(8>>1)
+4
+print(32/2)
+16.0
+
+a=2
+a=a<<2
+print(a)  # 8
+print(a<<1)  # 16
+
+print('абвгдежзийкл'.casefold())  # 'абвгдежзийкл'
+10
+10
+100
+100
+1000
+1000
+10000
+10000
+100000
+100000
+print(8>>1)  # 4
+print(8>>3)  # 1
+
+'''
+DS-15
+Traceback (most recent call last):
+  File "<pyshell#20>", line 1, in <module>
+DS-15  # NameError: name 'DS' is not defined
+DA-14
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+
+DA-14  # NameError: name 'DA' is not defined
+PFS-15
+ # Traceback (most recent call last):
+  File "<pyshell#22>", line 1, in <module>
+
+PFS-15  # NameError: name 'PFS' is not defined
+'PFS15'.startwith('DS')
+Traceback (most recent call last):
+  File "<pyshell#23>", line 1, in <module>
+    'PFS15'.startwith('DS')
+AttributeError: 'str' object has no attribute 'startwith'. Did you mean: 'startswith'?
+print('PFS15'.startswith('DS'))  # False
+print('JFS15'.startswith('DS'))  # False
+
+print('DA15'.startswith('DS'))  # False
+print('DS15'.startswith('DS'))  # True
+
+'''
+
+l=['PFS14','DS-11','DA-14','PFS-15','JS-12','DS-15','DS-14']
+for i in l:
+    if i.startswith('DS'):
+        print(i)
+
+        
+'''DS-11
+DS-15
+DS-14'''
+
+l=['hello.py','demo.png','resume.pdf','oper.py','python.py']
+for i in l:
+    if i.endswith('.py'):
+        print(i)
+
+'''hello.py
+oper.py
+python.py'''
+
+s='sowmya'
+print(s.isalpha())  # True
+s='varun123'
+print(s.isalpha())  # False
+print(s.isalnum())  # True
+print(s.islower())  # True
+print(s.isupper())  # False
+print(s.isspace())  # False
+print(' '.isspace())  # True
+print('     '.isspace())  # True
+s='python prgrm'
+print(s.istitle())  # False
+s=s.title()
+print(s)  # 'Python Prgrm'
+print(s.istitle())  # True
+print('@myvae'.isidentifier())  # False
+print('my_var'.isidentifier())  # True
+
+print('١٢٣'.isdigit())  # True
+print('123'.isdigit())  #True
+print('⓫'.isdigit())   # False
+print('۵'.isdigit())  # True
+print('五'.isnumeric())  # True
+s='Tatik'
+print(s.replace('i','ee'))  # 'Tateek'
+s='python pgrm lang'
+print(s.replace(' ',''))  # 'pythonpgrmlang'
+print(s)  # 'python pgrm lang'
+pwd='harshith@123'
+
+'''
+print(pwd.translate(str.maketrans("a13h", "@o#8")))  # '8@rs8it8@o2#'
+print(pwd.translate(str.maketrans("@o#8", "a13h")))  # 'harshitha123'
+print(maketrans("a13h", "@o#8"))
+ Traceback (most recent call last):
+  File "<pyshell#70>", line 1, in <module>
+print(maketrans("a13h", "@o#8"))  # NameError: name 'maketrans' is not defined
+print("harshit".maketrans("a13h", "@o#8"))  # {97: 64, 49: 111, 51: 35, 104: 56}
+print(pwd.maketrans("a13h", "@o#8"))  # {97: 64, 49: 111, 51: 35, 104: 56}
+
+'''
+  
+s='My name is Tarit'
+print(s.split())  # ['My', 'name', 'is', 'Tarit']
+print(s.split('a'))  # ['My n', 'me is T', 'rit']
+i='Varun,Harshith,Hemanth'
+print(i.split(','))  # ['Varun', 'Harshith', 'Hemanth']
+print(s)  # 'My name is Tarit'
+print(s.split())  # ['My', 'name', 'is', 'Tarit']
+print(s.rsplit(' ',2))  # ['My name', 'is', 'Tarit']
+
+file='''Hello
+world
+python
+program
+'''
+print(file)  #  'Hello\nworld\npython\nprogram\n'
+print(file.splitlines())  # ['Hello', 'world', 'python', 'program']
+file=['Hello', 'world', 'python', 'program']
+print(''.join(file))  # 'Helloworldpythonprogram'
+print(' '.join(file))  # 'Hello world python program'
+print('@'.join(file))  # 'Hello@world@python@program'
+print(','.join(file))  # 'Hello,world,python,program'
+print('pythonprgm.py'.partition('.'))  # ('pythonprgm', '.', 'py')
+print('pythonprgm.file.py'.rpartition('.'))  # ('pythonprgm.file', '.', 'py')
+print('1.pythonprgm.py'.rpartition('.'))  # ('1.pythonprgm', '.', 'py')
+print(file)  # ['Hello', 'world', 'python', 'program']
+file='''Hello
+world
+python
+program
+'''
+print(file.split('\n'))  # ['Hello', 'world', 'python', 'program', '']
+s='           python          '
+print(s.strip())  # 'python'
+print(s.lstrip())  # 'python          '
+print(s.rstrip())  # '           python'
+print(s)  # '           python          '
+
+print(s.encode())  # b'           python          '
+
+text = "Hello 🙂"
+print(text.encode())  # b'Hello \xf0\x9f\x99\x82'
+print(b'Hello \xf0\x9f\x99\x82'.decode())  # 'Hello 🙂'
+text="नमते你好"
+print(text.encode())  # b'\xe0\xa4\xa8\xe0\xa4\xae\xe0\xa4\xa4\xe0\xa5\x87\xe4\xbd\xa0\xe5\xa5\xbd'
+print(b'\xe0\xa4\xa8\xe0\xa4\xae\xe0\xa4\xa4\xe0\xa5\x87\xe4\xbd\xa0\xe5\xa5\xbd'.decode())  # 'नमते你好'
+
+print('banana'.count('na'))  # 2
+print('abcbcbc'.count('cbc'))  # 1
+
+print('tarit'.maketrans('a','@'))  # {97: 64}
+  # print('tarit'.translate())
+'''Traceback (most recent call last):
+  File "<pyshell#114>", line 1, in <module>'''
+
+  # print('tarit'.translate())  # TypeError: str.translate() takes exactly one argument (0 given)
+print('tarit'.translate('tarit'.maketrans('a','@')))  # 't@rit'
+print('tarit'.translate(str.maketrans('a','@')))  # 't@rit'
