@@ -55,9 +55,9 @@ t.add(12)  # it is immutable
 print(t) # AttributeError: 'tuple' object has no attribute 'add'
 
 # set
-s={1,1,1,1,1,2,2,3}
+s={1,1,1,1,1,2,2,3} # (sets are mutable)
 print(s)  # {1, 2, 3}  (doesn't allow duplicates)
-s={100,20,2,3,1,6,1,7,3,2,1786}
+s={100,20,2,3,1,6,1,7,3,2,1786} 
 print(s)  # {1, 2, 3, 100, 6, 7, 20, 1786} ( unordered collection of elements and it's mutable)
 
 # frozenset
