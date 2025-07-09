@@ -245,6 +245,7 @@ print(l)  # [2, 3, 4, 5, 6, 7, 8, 2, 2.3, 'string', True, (1, 2, 3), {1, 2, 3}, 
 print(l[0])  # 2
 print(l[0]=1)
 print(l)  # [1, 3, 4, 5, 6, 7, 8, 2, 2.3, 'string', True, (1, 2, 3), {1, 2, 3}, {'course': 'py'}, (2+5j), [1, 2, 3]]
+
 print(l.append("append function"))
 print(l)  # [1, 3, 4, 5, 6, 7, 8, 2, 2.3, 'string', True, (1, 2, 3), {1, 2, 3}, {'course': 'py'}, (2+5j), [1, 2, 3], 'append function']
 print(l.extend(["extend start",1,2,3,'extend end']))
