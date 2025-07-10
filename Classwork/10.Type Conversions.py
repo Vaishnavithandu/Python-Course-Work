@@ -117,6 +117,33 @@ print(set(dict)) # {'b', 'a', 'c'}
 
 # Converting Bool to other data types
 
+boolean=False
+print(int(boolean)) # 0
+print(float(boolean)) # 0.0
+print(str(boolean)) # 'False'
+print(list(boolean)) # Error
+print(tuple(boolean)) # Error
+print(set(boolean)) # Error
+print(dict(boolean)) # Error
+
+
+# Converting dict to other data types
+
+d = [('name', 'teja'), ('batch', '22'), ('subject', 'python')]
+print(dict(d)) # {'name': 'teja', 'batch': '22', 'subject': 'python'}
+
+print(int(dict))
+print(float(dict))
+print(complex(dict))
+print(str(dict))
+print(list(dict))
+print(tuple(dict))
+print(set(dict))
+
+
+
+
+
 
 
 
