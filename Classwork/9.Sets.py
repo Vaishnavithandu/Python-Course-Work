@@ -30,6 +30,7 @@ print(s)
   File "d:/Users/laxma/Desktop/Python-course-work/Python-Course-Work/Classwork/9.Sets.py", line 27, in <module>
     print(s.add(2+3j))
 AttributeError: 'list' object has no attribute 'add'  '''
+
 print(s.add("String"))
 print(s) 
 print(s.add([1,2,3]))
