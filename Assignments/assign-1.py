@@ -61,3 +61,40 @@ print("\n" + "="*50)
 print("            Product Data Entry Complete  ")
 print("="*50)
 
+'''
+Welcome to ZomEats Product Information System
+
+Enter Food Item ID: 101
+Enter Food Item Name: Paneer Butter Masala
+Enter Price (₹): 249.5
+Enter Categories (comma-separated): Vegetarian, Main Course, North Indian
+Enter Available Stock: 30
+Enter Sold Stock: 10
+Enter Discount Percentage: 10
+Enter Food Features (comma-separated): Rich Gravy, Spicy, Creamy, Served Hot
+Enter Restaurant Name: Pandaga
+Enter Restaurant Contact Number: 25656572
+Enter Restaurant Location: Hyd
+
+==================================================
+              ZomEats Product Summary
+==================================================
+
+Food ID, Name, Price:,101,Paneer Butter Masala,249.5
+Discount on Product: 10.00%
+
+ Food Item: Paneer Butter Masala
+ Price: ₹249.5
+ Stock Available: 30 
+ Stock Sold: 10 
+ Discount: 10.0%
+ Categories: Vegetarian, Main Course, North Indian
+ Features: Served Hot, Rich Gravy, Spicy, Creamy
+
+ Restaurant Info: Name - Pandaga, Contact - 25656572, Location - Hyd
+
+==================================================
+            Product Data Entry Complete
+==================================================
+
+'''
