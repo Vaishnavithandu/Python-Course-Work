@@ -68,8 +68,8 @@ Enter Email ID: vaishnavi@gmail.com
 Enter Country: India
 
 --- Duolingo Learning Details ---
-User ID, Name, Language:,2001,Vaishnavi,Spanish
-Progress: 80.50%
+User ID, Name, Language:,101,Vaishnavi,Spanish
+Progress: 75.50%
 User: Vaishnavi
 Learning: Spanish
 Daily Goal: 20 minutes, Days Completed: 45 days
