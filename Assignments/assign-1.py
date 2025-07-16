@@ -32,7 +32,7 @@ print("\n--- Duolingo Learning Details ---")
 # Task 2: Display using different formatting methods
 
 # 1. Comma Separation (sep=',')
-print("User ID, Name, Language:", user_id, user_name, learning_language, sep=',')
+print("User ID, Name, Language:" user_id, user_name, learning_language, sep=',')
 
 # 2. Percentage Formatting (% operator)
 print("Progress: %.2f%%" % progress_percentage)
