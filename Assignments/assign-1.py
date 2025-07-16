@@ -68,7 +68,7 @@ Enter Email ID: vaishnavi@gmail.com
 Enter Country: India
 
 --- Duolingo Learning Details ---
-User ID, Name, Language:,101,Vaishnavi,Spanish
+User ID, Name, Language:101,Vaishnavi,Spanish
 Progress: 75.50%
 User: Vaishnavi
 Learning: Spanish
