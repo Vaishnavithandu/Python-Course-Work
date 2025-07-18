@@ -1,4 +1,4 @@
-print("Welcome to Duolingo Learning Info System\n")
+print("Welcome to Duolingo Learning \n")
 
 # Task 1: Collect user language learning details
 user_id = int(input("Enter User ID: "))
@@ -42,7 +42,7 @@ print(f"User: {user_name}")
 print(f"Learning: {learning_language}")
 print(f"Daily Goal: {learning_streak[0]} minutes, Days Completed: {learning_streak[1]} days")
 print(f"Last Quiz Score: {score}/100")
-print(f"Topics Covered: {', '.join(topics_covered)}")
+print(f"Topics   Covered: {', '.join(topics_covered)}")
 print(f"Unlocked Skills: {', '.join(unlocked_skills)}")
 
 # 4. .format() method
