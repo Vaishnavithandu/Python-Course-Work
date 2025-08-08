@@ -75,7 +75,7 @@ print(d)
 import collections
 s='abcdef'
 d= collection.defaultdict(str) # it initializes all the key values the default value i.e initialised with 0
-for i in range(1,7)
+for i in range(1,7):
     d[i]+=s[i-1]
 print(d)
 
