@@ -1,19 +1,17 @@
 ''' 
 
 # Inheritance :
-Ex :
-Whatsapp
-Instagram
+Ex : 1) Whatsapp 2) Instagram
 to access the object of parent class u no need to access from parent class u can access from child class
 
-Types of inheritance:
+Types of Inheritance:
 
-1) Single : Parent to Child (class a to b)
-2) Multiple inheritance: multiple parents single child
-3) Multi level : single parent multiple childern / can access propertied of multiple elements/class through single class 
+1) Single Inheritance : Parent to Child (class a to b)
+2) Multiple Inheritance: multiple parents single child
+3) Multi level Inheritance : single parent multiple childern / can access propertied of multiple elements/class through single class 
    ex: 
-4) heirarchical : multiple children and single parent
-5) hybrid : whenever we have multiple inhertance we call it as hybrid
+4) Heirarchical Inheritance : multiple children and single parent
+5) Hybrid Inheritance : whenever we have multiple inhertance we call it as hybrid
 
 syntax: 
 
@@ -21,6 +19,7 @@ class Status:
 
 class StatusV1(Status):
 '''
+
 # 1) Single Inheritance: # 
 
 class A:
@@ -116,7 +115,7 @@ d=D()
 d.display_a()
 d.display_d()
 
-# Hybrid Inheritance: whenever we have multiple inhertance  #
+# 5) Hybrid Inheritance: whenever we have multiple inhertance  #
 
 class Status2015:
     def view(self):
