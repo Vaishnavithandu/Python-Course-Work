@@ -1,9 +1,9 @@
 # 5. Strings.py
 
-s='pravallika'
-print(s)  # pravallika
+s='vaishnavi'
+print(s)  # vaishnavi
 print(s+'a')
-print(s)  # pravallikaa
+print(s)  # vaishnavi
 print(s=s+'a')
 '''Traceback (most recent call last):
   File "D:/Users/laxma/Desktop/Python-course-work/Bitwise operator.py", line 11, in <module>

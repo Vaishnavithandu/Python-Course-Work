@@ -1,6 +1,6 @@
 ''' 
-
 # Inheritance :
+
 Ex : 1) Whatsapp 2) Instagram
 to access the object of parent class u no need to access from parent class u can access from child class
 
@@ -200,7 +200,6 @@ tarit.caption()
 tarit.statusrings()
 tarit.mute()
 tarit.filters()
-
 
 print('\nVarun')
 varun=Status2025()
