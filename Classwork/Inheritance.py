@@ -8,10 +8,10 @@ Types of Inheritance:
 
 1) Single Inheritance : Parent to Child (class a to b)
 2) Multiple Inheritance: multiple parents single child
-3) Multi level Inheritance : single parent multiple childern / can access propertied of multiple elements/class through single class 
+3) Multi level Inheritance : single parent multiple childern / can access properties of multiple elements/class through single class 
    ex: 
 4) Heirarchical Inheritance : multiple children and single parent
-5) Hybrid Inheritance : whenever we have multiple inhertance we call it as hybrid
+5) Hybrid Inheritance : whenever we have a combination of multiple inhertance we call it as hybrid
 
 syntax: 
 

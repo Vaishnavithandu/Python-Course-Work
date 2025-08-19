@@ -27,7 +27,8 @@ whenever we want to see the outputs different from user to user(object).Based on
 - easier to manage and organize the code
 - through encapsulation we can restrict the access to data 
 
-1) Class : 1) Attributes - data,varibles,properties
+1) Class : is a combination of Attributes and methods
+           1) Attributes - data,varibles,properties
            2) Methods - functions
 
 we use 'Class' to define a class
@@ -101,10 +102,12 @@ self is not a key word we can write anything instead of self (ex: abc) but mostl
 
 # How to access these methods: #
 
-Class Method: with the help of class method we can access with the methods.
+- Class Method: with the help of class method we can access with the methods.
 we can also access it with the object name -- but not recommended
 
-Instant Method: only instant name/only object can access the instat method
+- Instant Method: only instant name/only object can access the instant method
+
+- Static Method: 
 
 class Shopping:
     discount=10
