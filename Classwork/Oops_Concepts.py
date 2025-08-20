@@ -8,7 +8,7 @@ whenever we want to see the outputs different from user to user(object).Based on
 # Drawbacks in procedural and characteristics in oops to switch to oops: #
 
 1) Encapsulation : to restrict few variables/info
-2) Abstarctions : Hiding the complex data, ex: when we have the file/image more than the fixed md the it actomaticaly reduces the size were we can see diff in quality.it hides this thing 
+2) Abstarctions : Hiding the complex data, ex: when we have the file/image more than the fixed nd the it actomaticaly reduces the size were we can see diff in quality.it hides this thing 
 3) Inheritance : when we want the properties of child class/parent class.to reuse the code 
 4) Polymorphism : same method with diff functions(actions)
       ex: hotstart/utube premium and no premium account
